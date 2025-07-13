@@ -1,10 +1,9 @@
 import curses
 from curses import wrapper
-
 def main(stdscr):
     stdscr.clear()
-    stdscr.addstr("Hello my name is sayem khan and i am the best")
+    stdscr.addstr("hello my name is sayem khan and i am a mechanic")
     stdscr.refresh()
-    stdscr.getkey()  
-    
+    stdscr.getkey()
+
 wrapper(main)
