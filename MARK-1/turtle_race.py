@@ -54,6 +54,7 @@ def start_race(colors) -> str:
             if y >= HEIGHT // 2 - 10:
                 return turtle_obj.pencolor()
 
+
 def create_turtle(colors):
     turtles = []
     spacing = WIDTH // (len(colors) + 1)
@@ -69,12 +70,14 @@ def create_turtle(colors):
         turtles.append(racer)
     return turtles
 
+
 def init_screen():
     screen = turtle.Screen()
     screen.bgcolor("black")
     screen.setup(WIDTH, HEIGHT)
     screen.title("Turtle Racing!")
     return screen
+
 
 # MAIN PROGRAM
 print("Welcome to the turtle racing game!")

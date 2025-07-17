@@ -64,8 +64,6 @@ class SlotMachine:
             except ValueError:
                 print("Invalid input. Please enter a number.")
 
-
-
     def spin(self):
         all_symbols = []
         for symbol, count in self.symbols.items():
@@ -81,7 +79,6 @@ class SlotMachine:
                 column.append(choice)
             columns.append(column)
         return columns
-
 
     def print_spin(self, columns):
         for row in range(self.rows):

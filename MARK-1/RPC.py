@@ -35,6 +35,7 @@ def printingout():
 
     
 def get_random_input():
+    
     r = random.randint(1,3)
     match r: 
         case 1 : return "Rock"

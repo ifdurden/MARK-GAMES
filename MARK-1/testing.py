@@ -22,6 +22,7 @@ def get_racer():
 
 def racer(colors):
     turtles = create_turtle(colors)
+    
     while True :
         for i , turtle in enumerate(turtles):
             speed = random.randrange(1,20)
@@ -47,10 +48,12 @@ def create_turtle(colors):
     return turtles
 
 
+
 def init_screen():
     screen = turtle.Screen()
     turtle.setup(HEIGHT , WIDTH)
     turtle.title("Turtle racing!")
+
 
 
 

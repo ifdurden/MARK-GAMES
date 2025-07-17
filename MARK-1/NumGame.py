@@ -19,6 +19,7 @@ while True:
             print(f"The random number : {og_num}")
             print(f"The number You choice : {number}")
             break
+            
     except ValueError  :
             print(f"Error : Inputed A String When Asked For Nunber")
             print("Please enter a number.")

@@ -58,6 +58,7 @@ def player_setter():
 def roll():
     max_dice=6
     min_dice=1
+    
     return random.randint(min_dice , max_dice)
 
 if __name__ == "__main__" :

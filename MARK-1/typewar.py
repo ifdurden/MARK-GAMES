@@ -9,6 +9,7 @@ def start(stdscr):
     stdscr.addstr("\nPress any key to start!")
     stdscr.refresh()
     stdscr.getkey()
+    
 
 def load_txt():
     with open("typewar.txt", "r") as file: 

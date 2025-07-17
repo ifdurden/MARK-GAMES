@@ -1,5 +1,7 @@
 import random
 import time
+
+
 MAX_OPERAND = 15
 MIN_OPERAND = 3
 OPERATOR = ["+" , "-" , "*"]
